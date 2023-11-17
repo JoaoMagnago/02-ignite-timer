@@ -1,27 +1,12 @@
-# React + TypeScript + Vite
+# Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A study project with **Vite**, **React** and **Typescript** with the goal of practicing form control and validation, as well as the usage of reducers and basic react hooks.
+An application with a timer to help you keep track of any task or activity you want to control. It also saves your active and previous times in a history page.
 
-Currently, two official plugins are available:
+Some important libraries used are:
+* [React Hook Form](https://react-hook-form.com/) (for form control)
+* [Zod](https://zod.dev/) (for form validation)
+* [date-fns](https://date-fns.org/) (for time manipulation methods and logic)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+Made as part of the **Ignite** course [@Rocketseat](https://www.rocketseat.com.br/).
