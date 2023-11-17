@@ -1,6 +1,7 @@
 # Timer
 
 A study project with **Vite**, **React** and **Typescript** with the goal of practicing form control and validation, as well as the usage of reducers and basic react hooks.
+
 An application with a timer to help you keep track of any task or activity you want to control. It also saves your active and previous times in a history page.
 
 Some important libraries used are:
