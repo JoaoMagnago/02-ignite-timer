@@ -9,5 +9,7 @@ Some important libraries used are:
 * [Zod](https://zod.dev/) (for form validation)
 * [date-fns](https://date-fns.org/) (for time manipulation methods and logic)
 
+Try it for yourself! Here is the [deployed application](https://02-ignite-timer-wine.vercel.app/).
+
 ---
 Made as part of the **Ignite** course [@Rocketseat](https://www.rocketseat.com.br/).
